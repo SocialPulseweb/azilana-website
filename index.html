@@ -1,84 +1,79 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azilana – Analiza obecności w internecie</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Azilana – Analiza obecności w sieci</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Azilana Logo">
+      <h1>Azilana</h1>
+    </div>
     <nav>
-        <img src="logo.png" alt="Logo Azilana" class="logo">
-        <ul>
-            <li><a href="#oferta">Oferta</a></li>
-            <li><a href="#korzysci">Korzyści</a></li>
-            <li><a href="#problemy">Problemy, które rozwiązujemy</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+      <ul>
+        <li><a href="#start">Start</a></li>
+        <li><a href="#oferta">Oferta</a></li>
+        <li><a href="#dlakogo">Dla kogo</a></li>
+        <li><a href="#korzysci">Korzyści</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <header class="fade-in">
-        <h1>Azilana</h1>
-        <p>Twoje dane. Twój wgląd. Profesjonalna analiza obecności marki w internecie.</p>
-        <a href="#kontakt" class="cta">Skontaktuj się z nami</a>
-    </header>
+  <section class="hero" id="start">
+    <h2>Twoje dane. Twój wgląd. Profesjonalna analiza obecności marki w internecie.</h2>
+    <a href="#kontakt" class="cta-button">Skontaktuj się z nami</a>
+  </section>
 
-    <section id="oferta" class="slide-in">
-        <h2>Nasza oferta</h2>
-        <p>Pomagamy firmom lokalnym lepiej zrozumieć swoją obecność w internecie dzięki audytom i rekomendacjom.</p>
-        <img src="growth.png" alt="Wzrost sprzedaży" class="banner">
-        <table>
-            <tr><th>Pakiet</th><th>Zakres</th><th>Cena</th></tr>
-            <tr><td>Basic</td><td>1 raport / mc, 2 profile</td><td>400 zł</td></tr>
-            <tr><td>Pro</td><td>2 raporty / mc, 4 profile, rekomendacje</td><td>800 zł</td></tr>
-            <tr><td>Premium</td><td>Raport co tydzień, wszystkie kanały + strategia treści</td><td>1200 zł</td></tr>
-        </table>
-    </section>
+  <section class="oferta" id="oferta">
+    <h2>Co oferujemy?</h2>
+    <ul>
+      <li>✅ Kompleksowy audyt social mediów</li>
+      <li>✅ Rekomendacje optymalizacji i wzrostu zaangażowania</li>
+      <li>✅ Monitoring trendów i konkurencji</li>
+      <li>✅ Gotowy raport PDF dla Ciebie i Twojego zespołu</li>
+    </ul>
+  </section>
 
-    <section id="korzysci" class="fade-in">
-        <h2>Korzyści</h2>
-        <ul>
-            <li>📈 Więcej klientów dzięki lepszej widoczności</li>
-            <li>🎯 Trafniejsze kampanie reklamowe</li>
-            <li>💬 Skuteczniejsza komunikacja z odbiorcami</li>
-            <li>📊 Raporty, które naprawdę pomagają w decyzjach</li>
-        </ul>
-    </section>
+  <section class="dla-kogo" id="dlakogo">
+    <h2>Dla kogo?</h2>
+    <p>Dla lokalnych biznesów, marek osobistych, e-commerce, restauracji, salonów urody i nie tylko. Jeśli jesteś w internecie — ta analiza jest dla Ciebie.</p>
+  </section>
 
-    <section id="problemy" class="slide-in">
-        <h2>Rozwiązujemy realne problemy</h2>
-        <ul>
-            <li>❌ Brak efektów w mediach społecznościowych</li>
-            <li>❌ Niska sprzedaż mimo działań marketingowych</li>
-            <li>❌ Nieznajomość grupy docelowej</li>
-            <li>❌ Brak spójności w komunikacji</li>
-        </ul>
-        <p>✔ Dzięki naszej analizie dowiesz się co działa, a co wymaga poprawy.</p>
-    </section>
+  <section class="korzysci" id="korzysci">
+    <h2>Jakie problemy rozwiązujemy?</h2>
+    <ul>
+      <li>📉 Niskie zaangażowanie w social media</li>
+      <li>❌ Brak strategii komunikacyjnej</li>
+      <li>😕 Nieznajomość potrzeb odbiorców</li>
+      <li>🧩 Brak spójnego wizerunku marki online</li>
+    </ul>
 
-    <section id="kontakt" class="fade-in">
-        <h2>Kontakt</h2>
-        <p>Masz pytania? Napisz do nas przez formularz lub bezpośrednio na:</p>
-        <p><a href="mailto:kontaktazilana@gmail.com">kontaktazilana@gmail.com</a></p>
-        <form class="kontakt-form" action="https://formspree.io/f/xwkgblqv" method="POST">
-            <label for="name">Imię i nazwisko:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Adres e-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Wiadomość:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            
-            <button type="submit">Wyślij wiadomość</button>
-        </form>
-        <h2>Kontakt</h2>
-        <p>Napisz do nas na: <a href="mailto:kontaktazilana@gmail.com">kontaktazilana@gmail.com</a></p>
-    </section>
+    <h3>Co zyskujesz?</h3>
+    <p>✅ Wzrost zaangażowania<br>
+    ✅ Zwiększenie rozpoznawalności<br>
+    ✅ Większa sprzedaż i lojalność klientów</p>
+    
+    <img src="wykres.png" alt="Wykres wzrostu sprzedaży" class="chart-img"/>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Azilana. Wszystkie prawa zastrzeżone.</p>
-    </footer>
+  <section class="kontakt" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Masz pytania? Napisz do nas przez formularz:</p>
+    <form method="POST" action="https://formspree.io/f/mnqeyyzg">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required />
+      <input type="email" name="email" placeholder="Adres e-mail" required />
+      <textarea name="message" placeholder="Wiadomość" required></textarea>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+    <p>Lub bezpośrednio na maila: <a href="mailto:kontaktazilana@gmail.com">kontaktazilana@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Azilana. Wszystkie prawa zastrzeżone.</p>
+  </footer>
 </body>
 </html>
