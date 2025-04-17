@@ -11,21 +11,23 @@
     <nav>
         <img src="logo.png" alt="Logo Azilana" class="logo">
         <ul>
-            <li><a href="#oferta">Nasza oferta</a></li>
+            <li><a href="#oferta">Oferta</a></li>
             <li><a href="#korzysci">Korzyści</a></li>
+            <li><a href="#problemy">Problemy, które rozwiązujemy</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
         </ul>
     </nav>
 
-    <header>
+    <header class="fade-in">
         <h1>Azilana</h1>
         <p>Twoje dane. Twój wgląd. Profesjonalna analiza obecności marki w internecie.</p>
         <a href="#kontakt" class="cta">Skontaktuj się z nami</a>
     </header>
 
-    <section id="oferta">
+    <section id="oferta" class="slide-in">
         <h2>Nasza oferta</h2>
-        <p>Oferujemy audyty, porównania konkurencji, strategie contentowe oraz rekomendacje komunikacyjne.</p>
+        <p>Pomagamy firmom lokalnym lepiej zrozumieć swoją obecność w internecie dzięki audytom i rekomendacjom.</p>
+        <img src="growth.png" alt="Wzrost sprzedaży" class="banner">
         <table>
             <tr><th>Pakiet</th><th>Zakres</th><th>Cena</th></tr>
             <tr><td>Basic</td><td>1 raport / mc, 2 profile</td><td>400 zł</td></tr>
@@ -34,20 +36,45 @@
         </table>
     </section>
 
-    <section id="korzysci">
-        <h2>Korzyści dla Twojej firmy</h2>
+    <section id="korzysci" class="fade-in">
+        <h2>Korzyści</h2>
         <ul>
-            <li>Zwiększenie widoczności w internecie</li>
-            <li>Lepsze zrozumienie klientów i konkurencji</li>
-            <li>Dopasowana strategia komunikacji</li>
-            <li>Raporty gotowe do wdrożenia</li>
+            <li>📈 Więcej klientów dzięki lepszej widoczności</li>
+            <li>🎯 Trafniejsze kampanie reklamowe</li>
+            <li>💬 Skuteczniejsza komunikacja z odbiorcami</li>
+            <li>📊 Raporty, które naprawdę pomagają w decyzjach</li>
         </ul>
     </section>
 
-    <section id="kontakt">
+    <section id="problemy" class="slide-in">
+        <h2>Rozwiązujemy realne problemy</h2>
+        <ul>
+            <li>❌ Brak efektów w mediach społecznościowych</li>
+            <li>❌ Niska sprzedaż mimo działań marketingowych</li>
+            <li>❌ Nieznajomość grupy docelowej</li>
+            <li>❌ Brak spójności w komunikacji</li>
+        </ul>
+        <p>✔ Dzięki naszej analizie dowiesz się co działa, a co wymaga poprawy.</p>
+    </section>
+
+    <section id="kontakt" class="fade-in">
         <h2>Kontakt</h2>
-        <p>Masz pytania? Napisz do nas:</p>
+        <p>Masz pytania? Napisz do nas przez formularz lub bezpośrednio na:</p>
         <p><a href="mailto:azilana.website@azilana.website">azilana.website@azilana.website</a></p>
+        <form class="kontakt-form" action="https://formspree.io/f/mnqelkvv" method="POST">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Wyślij wiadomość</button>
+        </form>
+        <h2>Kontakt</h2>
+        <p>Napisz do nas na: <a href="mailto:azilana.website@azilana.website">azilana.website@azilana.website</a></p>
     </section>
 
     <footer>
